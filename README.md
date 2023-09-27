@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 
 2. Clone this repository to your local machine(shell):
 
-    git clone <repository-url>
+    git clone https://github.com/PaulKagan/Paul-Shop.git
 
 3. Navigate to the project directory(shell):
 
@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 ## Technologies Used
     React
-    Type Script
+    TypeScript
     Redux
     Axios
     CSS
@@ -41,15 +41,15 @@ To run this project locally, follow these steps:
 ## Reflection
 
     - Goals: The primary goal of this project was to create a user-friendly and responsive web interface for an online shop.
-        It involved implementing various TS based React components, managing state with Redux,
+        It involved implementing various TS-based React components, managing state with Redux,
         and fetching data from an external API using Axios.
 
-    - Challenges: One of the main challenges was adjusting the project to TS without previouse knolaghe and managing Redux persistent states.
+    - Challenges: One of the main challenges was adjusting the project to TS without previous knowledge and managing Redux persistent states.
         This required research into the difference between JS and TS, and using the new coding "laws" in the application.
 
     - Tools and Technologies: The project was built using TS based React app to create reusable components,
         Redux to manage global state, Axios for making API requests, and CSS for styling.
-        The use of these technologies was chosen to provide a modern and maintainable codebase, and a more error proof code thanks to TS.
+        The use of these technologies was chosen to provide a modern and maintainable codebase and a more error-proof code thanks to TS.
 
     - In future iterations: The project will include additional features such as checkout functionality,
     user account management, improved product filtering, and Tailwind styling.
