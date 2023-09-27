@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Paul Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An e-commerce web application built with React, Redux, Axios, and CSS for managing and displaying products, filtering products by category and text, and handling user authentication.
 
-## Available Scripts
+## Project Status
 
-In the project directory, you can run:
+This project is currently in development. Users can browse and filter products, add them to the cart, and perform user authentication. Additional features, such as checkout and user account management, are planned for future development.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation and Setup Instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To run this project locally, follow these steps:
 
-### `npm test`
+1. You will need `node` and `npm` installed globally on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Clone this repository to your local machine(shell):
 
-### `npm run build`
+    git clone <repository-url>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Navigate to the project directory(shell):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    cd paul-shop
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Install the required dependencies(shell):
 
-### `npm run eject`
+    npm install react-router-dom axios  react-redux @reduxjs/toolkit redux-persist email-validator
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Start the development server(shell):
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+6. Open your web browser and visit http://localhost:3000/ to view the app.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies Used
+    React
+    Type Script
+    Redux
+    Axios
+    CSS
 
-## Learn More
+## Reflection
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - Goals: The primary goal of this project was to create a user-friendly and responsive web interface for an online shop.
+        It involved implementing various TS based React components, managing state with Redux,
+        and fetching data from an external API using Axios.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - Challenges: One of the main challenges was adjusting the project to TS without previouse knolaghe and managing Redux persistent states.
+        This required research into the difference between JS and TS, and using the new coding "laws" in the application.
+
+    - Tools and Technologies: The project was built using TS based React app to create reusable components,
+        Redux to manage global state, Axios for making API requests, and CSS for styling.
+        The use of these technologies was chosen to provide a modern and maintainable codebase, and a more error proof code thanks to TS.
+
+    - In future iterations: The project will include additional features such as checkout functionality,
+    user account management, improved product filtering, and Tailwind styling.
+    The goal is to create a fully functional e-commerce platform that provides a seamless shopping experience for users.
+    
